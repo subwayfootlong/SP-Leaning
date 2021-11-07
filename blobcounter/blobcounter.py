@@ -1,15 +1,13 @@
 import numpy as np
-import matplotlib.pyplot as plt
 from skimage.io import imshow, imread
-from skimage.color import rgb2hsv, hsv2rgb
 import cv2
 
 #Get image input
 image_input = imread('testerbutred.png')
 
+
 #If not red pixel, set to black
 red_filtered = (image_input[:,:,0] > 150) & (image_input[:,:,1] < 100) & (image_input[:,:,2] < 110)
-plt.figure(num=None, figsize=(8, 6), dpi=80)
 image_filtered = image_input.copy()
 image_filtered[:, :, 0] = image_filtered[:, :, 0] * red_filtered
 image_filtered[:, :, 1] = image_filtered[:, :, 1] * red_filtered
