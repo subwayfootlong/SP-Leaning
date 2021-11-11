@@ -1,7 +1,7 @@
 # SP-Leaning
 Hi this is more for a showcase of my programs during my time in Singapore Polytechnic
 
-Python Smart Cooling is a raspberry pi program to create smart cooling system in python
+smartCoolingSystem is a python program made for Python IoT Class
 
 Workout Buddy is an app I made using Andoroid studio
 
