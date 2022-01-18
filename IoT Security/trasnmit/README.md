@@ -1,42 +1,7 @@
-Prerequisites
-Arduino 1.6.5 (or newer, if you know what you are doing)
-git
-python 2.7
-terminal, console, or command prompt (depending on you OS)
-Internet connection
-Instructions
-Open the console and go to Arduino directory. This can be either your sketchbook directory (usually <Documents>/Arduino), or the directory of Arduino application itself, the choice is up to you.
-Clone this repository into hardware/esp8266com/esp8266 directory. Alternatively, clone it elsewhere and create a symlink, if your OS supports them.
+This folder is for transmiting data from ESP8266 to the cloud VM running Node-Red
 
-cd hardware
-mkdir esp8266com
-cd esp8266com
-git clone https://github.com/esp8266/Arduino.git esp8266
-You should end up with the following directory structure:
-
-Arduino
-|
---- hardware
-    |
-    --- esp8266com
-        |
-        --- esp8266
-            |
-            --- bootloaders
-            --- cores
-            --- doc
-            --- libraries
-            --- package
-            --- tests
-            --- tools
-            --- variants
-            --- platform.txt
-            --- programmers.txt
-            --- README.md
-            --- boards.txt
-            --- LICENSE
-Download binary tools
-
-cd esp8266/tools
-python get.py
-Restart Arduino
+#H1 Publishing data to HiveMQ Securely (with certificates)
+Prerequisites:
+Follow this guide: https://console.hivemq.cloud/clients/arduino-esp8266?uuid=c689cd9ab0cf406bbc142988277304d9
+#H3 For ar.exe and openssl
+Install the ESP8266 Board for Arduino using this guide: http://arduino.esp8266.com/Arduino/versions/2.0.0/doc/installing.html
