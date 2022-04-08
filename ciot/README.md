@@ -16,3 +16,5 @@ This project was mainly done on a laptop acting as a server with the python scri
 
 ## Technologies used 
 Node-RED, InfluxDB, Arduino, MQTT, Telgram, TensorFlow 
+
+For a full project description, read the report provided
