@@ -1,8 +1,11 @@
 # SP-Leaning
-Hi this is more for a showcase of my programs during my time in Singapore Polytechnic
+Hi this is more for a showcase of my projects during my time in Singapore Polytechnic
 
-smartCoolingSystem is a python program made for Python IoT Class
-
-Workout Buddy is an app I made using Andoroid studio
-
-Blob Counter is a computer vision application made to count the number of red stickers in a photo. in this instance, i used it to count the number of cubes on the storage shelf.
+## blobcounter
+Counts the number of red stickers in an image using OpenCV
+## CIOT
+Creating an IoT project with mutiple devices and using MQTT to communicate between them. Also built my first Classification AI in there
+## smartCoolingSystem
+Learning how to interface with Raspberry PI GPIOs in python
+## Workout Buddy 
+First App made in Android Studio
