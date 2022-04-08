@@ -3,11 +3,11 @@ This is a module I took in SP to create a CIOT project.
 
 ## Brief
   1. Camera is used to detect white and silver cubes; Ai is then used to classify between white and silver. 
-  2.If the A.I (Artificial Intelligence) detects white cube, a motor will push the white cube into the reject tray.  
-  3.The reject tray contains an Infared sensor that count the number of white cubes.  
-  4.When there are too many white cubes, LED Red and Buzzer will turn on. It will also send a notification via Telegram. 
-  5.A technician will then come by to remove the white cubes. He will also turn on a switch to show that the machine is being serviced. The servicing status will be sent via telegram. 
-  6.The machine uptime/downtime and reject frequency will all be available via dashboard for anyone on the network. 
+  2. If the A.I (Artificial Intelligence) detects white cube, a motor will push the white cube into the reject tray.  
+  3. The reject tray contains an Infared sensor that count the number of white cubes.  
+  4. When there are too many white cubes, LED Red and Buzzer will turn on. It will also send a notification via Telegram. 
+  5. A technician will then come by to remove the white cubes. He will also turn on a switch to show that the machine is being serviced. The servicing status will be sent via telegram. 
+  6. The machine uptime/downtime and reject frequency will all be available via dashboard for anyone on the network. 
   
   ![image](https://user-images.githubusercontent.com/74981128/162348480-b1f164f2-31c0-4aac-8934-a3ac6f52529e.png)
   
