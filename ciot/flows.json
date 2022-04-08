@@ -1,0 +1,1989 @@
+[
+    {
+        "id": "6c0a65ccddbdd707",
+        "type": "tab",
+        "label": "CIOT Project",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9413c6282fd0936f",
+        "type": "group",
+        "z": "6c0a65ccddbdd707",
+        "name": "MQTT Broker",
+        "style": {
+            "stroke": "#000000",
+            "fill": "#b797cf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "94ffa6d0660cb2cb",
+            "736ed664f23d0991",
+            "aec0ccbf2fb3c146"
+        ],
+        "env": [],
+        "x": 54,
+        "y": 59,
+        "w": 492,
+        "h": 122
+    },
+    {
+        "id": "8214840023dbe70a",
+        "type": "group",
+        "z": "6c0a65ccddbdd707",
+        "name": "Username & Password checker",
+        "style": {
+            "label": true,
+            "stroke": "#000000",
+            "color": "#000000"
+        },
+        "nodes": [
+            "5dbada441923dfd9",
+            "78ccbf328f8fa82f",
+            "b336a42e9e97b196",
+            "41c54afc421fca04",
+            "1869212c73e0dbf0",
+            "34b52d8ec56f6e21",
+            "b607f404002d57ac",
+            "b23b0e75c3402c30"
+        ],
+        "x": 34,
+        "y": 779,
+        "w": 1092,
+        "h": 142
+    },
+    {
+        "id": "2edc7fd666440959",
+        "type": "group",
+        "z": "6c0a65ccddbdd707",
+        "name": "2FA",
+        "style": {
+            "stroke": "#000000",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "ab70bde8ca5639ef",
+            "5d24072a48188193",
+            "9588af6816ec9a3d",
+            "0d09aff208b7290c",
+            "2dfe75d701f2410e",
+            "9fba1fb4966009ea",
+            "7c4ca2e59794ca01",
+            "a4bbe22d16c169a7",
+            "3406ec1fa0a04c1c",
+            "07cc14438415d393",
+            "8e3d2dc01336c049",
+            "f0c0a77a95f13119"
+        ],
+        "x": 34,
+        "y": 933,
+        "w": 972,
+        "h": 268
+    },
+    {
+        "id": "5c0bd1ebe2299210",
+        "type": "group",
+        "z": "6c0a65ccddbdd707",
+        "name": "Reject Tray",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "4ab26925cb223fe6",
+            "f0722892a7931f22",
+            "8dfb2e6cfaeb22e5",
+            "273ac0ab7c434384",
+            "95c4d77be4b77db0",
+            "ada35c62569fadb3",
+            "59aa0fbc83a7c6c7",
+            "166347c977285f63"
+        ],
+        "env": [],
+        "x": 34,
+        "y": 219,
+        "w": 1078,
+        "h": 188
+    },
+    {
+        "id": "a613a623a2e7ad6c",
+        "type": "group",
+        "z": "6c0a65ccddbdd707",
+        "name": "Button",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "23f43b2c38070e22",
+            "fa5a57921e727ca0",
+            "9aa1fd6b95f31be7",
+            "6f9631c1195515ba",
+            "f3366290662c7159",
+            "52a08a28255267c5"
+        ],
+        "env": [],
+        "x": 34,
+        "y": 419,
+        "w": 1238,
+        "h": 208
+    },
+    {
+        "id": "340939f45f1e93c4",
+        "type": "group",
+        "z": "6c0a65ccddbdd707",
+        "name": "Object Classification",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6c8290e782386bac",
+            "05da0d13bb90ee99",
+            "7b93fbd1b9f435c5",
+            "fcc04f58e4c5254b",
+            "52a2f78892d65b84"
+        ],
+        "env": [],
+        "x": 34,
+        "y": 639,
+        "w": 692,
+        "h": 122
+    },
+    {
+        "id": "a0d8fd063516e634",
+        "type": "group",
+        "z": "6c0a65ccddbdd707",
+        "name": "Activate and deactivate motor",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ff3c1d8eb3f81ada",
+            "0b589393d3a35487",
+            "e82798955a04afc8"
+        ],
+        "env": [],
+        "x": 34,
+        "y": 1219,
+        "w": 352,
+        "h": 122
+    },
+    {
+        "id": "9a62b7d0a5f0d5e4",
+        "type": "group",
+        "z": "6c0a65ccddbdd707",
+        "name": "Database Query",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f64c68bad13cfbdf",
+            "229e7704c2042ecb",
+            "9465bc03c7471e00",
+            "78c3169182524b33",
+            "583bb6939867551a",
+            "494f27d083454b21",
+            "eda7334bc8e57384",
+            "b0eb4031c09938a2",
+            "32ad389144a34f48"
+        ],
+        "env": [],
+        "x": 1194,
+        "y": 659,
+        "w": 952,
+        "h": 202
+    },
+    {
+        "id": "166347c977285f63",
+        "type": "group",
+        "z": "6c0a65ccddbdd707",
+        "g": "5c0bd1ebe2299210",
+        "name": "Telegram handler",
+        "style": {
+            "label": true,
+            "fill": "#7fb7df",
+            "color": "#000000",
+            "stroke": "#000000"
+        },
+        "nodes": [
+            "bd9976493629bfa6",
+            "6cf0272d36aee237"
+        ],
+        "env": [],
+        "x": 594,
+        "y": 299,
+        "w": 492,
+        "h": 82
+    },
+    {
+        "id": "52a08a28255267c5",
+        "type": "group",
+        "z": "6c0a65ccddbdd707",
+        "g": "a613a623a2e7ad6c",
+        "name": "Telegram handler",
+        "style": {
+            "label": true,
+            "fill": "#7fb7df",
+            "color": "#000000",
+            "stroke": "#000000"
+        },
+        "nodes": [
+            "a56a1ceae11ba607",
+            "a3f4594ed3e9640b",
+            "222cce964e585cd6",
+            "3f3ca29c6ddd8ee2"
+        ],
+        "env": [],
+        "x": 614,
+        "y": 479,
+        "w": 632,
+        "h": 122
+    },
+    {
+        "id": "8e3d2dc01336c049",
+        "type": "group",
+        "z": "6c0a65ccddbdd707",
+        "g": "2edc7fd666440959",
+        "name": "Telegram handler",
+        "style": {
+            "label": true,
+            "fill": "#7fb7df",
+            "color": "#000000",
+            "stroke": "#000000"
+        },
+        "nodes": [
+            "ece0341a3e2bd569",
+            "3f9f5320f7e25e58"
+        ],
+        "x": 374,
+        "y": 959,
+        "w": 492,
+        "h": 82
+    },
+    {
+        "id": "94ffa6d0660cb2cb",
+        "type": "aedes broker",
+        "z": "6c0a65ccddbdd707",
+        "g": "9413c6282fd0936f",
+        "name": "",
+        "mqtt_port": 1883,
+        "mqtt_ws_bind": "port",
+        "mqtt_ws_port": "",
+        "mqtt_ws_path": "",
+        "cert": "",
+        "key": "",
+        "certname": "",
+        "keyname": "",
+        "dburl": "",
+        "usetls": false,
+        "x": 170,
+        "y": 120,
+        "wires": [
+            [
+                "736ed664f23d0991"
+            ],
+            [
+                "aec0ccbf2fb3c146"
+            ]
+        ]
+    },
+    {
+        "id": "736ed664f23d0991",
+        "type": "debug",
+        "z": "6c0a65ccddbdd707",
+        "g": "9413c6282fd0936f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 430,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "f8ee4fe632d03492",
+        "type": "mqtt out",
+        "z": "6c0a65ccddbdd707",
+        "name": "",
+        "topic": "esp/test",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "875dde83f3ebc0ea",
+        "x": 900,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "8ce80306ca33b78f",
+        "type": "inject",
+        "z": "6c0a65ccddbdd707",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "laptop",
+        "payloadType": "str",
+        "x": 690,
+        "y": 100,
+        "wires": [
+            [
+                "f8ee4fe632d03492"
+            ]
+        ]
+    },
+    {
+        "id": "bd9976493629bfa6",
+        "type": "telegram sender",
+        "z": "6c0a65ccddbdd707",
+        "g": "166347c977285f63",
+        "name": "",
+        "bot": "65103eab3bf5f377",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 970,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6cf0272d36aee237",
+        "type": "function",
+        "z": "6c0a65ccddbdd707",
+        "g": "166347c977285f63",
+        "name": "Declare Telegram Objects",
+        "func": "var temp=msg.payload\nmsg.payload={\n    content:\"Reject Tray is full!\",\n    type:'message',\n    chatId:['669038186']\n   }\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 340,
+        "wires": [
+            [
+                "bd9976493629bfa6",
+                "59aa0fbc83a7c6c7"
+            ]
+        ]
+    },
+    {
+        "id": "4ab26925cb223fe6",
+        "type": "change",
+        "z": "6c0a65ccddbdd707",
+        "g": "5c0bd1ebe2299210",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 300,
+        "wires": [
+            [
+                "f0722892a7931f22"
+            ]
+        ]
+    },
+    {
+        "id": "f0722892a7931f22",
+        "type": "influxdb out",
+        "z": "6c0a65ccddbdd707",
+        "g": "5c0bd1ebe2299210",
+        "influxdb": "55fd4af1e0d5d955",
+        "name": "",
+        "measurement": "Reject Tray",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "bc0d8ab9311dac0c",
+        "bucket": "CIOT",
+        "x": 720,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "23f43b2c38070e22",
+        "type": "mqtt in",
+        "z": "6c0a65ccddbdd707",
+        "g": "a613a623a2e7ad6c",
+        "name": "",
+        "topic": "button",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "875dde83f3ebc0ea",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 540,
+        "wires": [
+            [
+                "fa5a57921e727ca0"
+            ]
+        ]
+    },
+    {
+        "id": "fa5a57921e727ca0",
+        "type": "switch",
+        "z": "6c0a65ccddbdd707",
+        "g": "a613a623a2e7ad6c",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "HIGH",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "LOW",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 270,
+        "y": 540,
+        "wires": [
+            [
+                "6f9631c1195515ba"
+            ],
+            [
+                "f3366290662c7159"
+            ]
+        ]
+    },
+    {
+        "id": "a56a1ceae11ba607",
+        "type": "telegram sender",
+        "z": "6c0a65ccddbdd707",
+        "g": "52a08a28255267c5",
+        "name": "",
+        "bot": "65103eab3bf5f377",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1130,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a3f4594ed3e9640b",
+        "type": "function",
+        "z": "6c0a65ccddbdd707",
+        "g": "52a08a28255267c5",
+        "name": "Declare Telegram Objects",
+        "func": "var temp=msg.payload\nmsg.payload={\n    content:\"Servicing\",\n    type:'message',\n    chatId:['669038186']\n   }\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 520,
+        "wires": [
+            [
+                "3f3ca29c6ddd8ee2"
+            ]
+        ]
+    },
+    {
+        "id": "222cce964e585cd6",
+        "type": "function",
+        "z": "6c0a65ccddbdd707",
+        "g": "52a08a28255267c5",
+        "name": "Declare Telegram Objects",
+        "func": "var temp=msg.payload\nmsg.payload={\n    content:\"Servicing: Done\",\n    type:'message',\n    chatId:['669038186']\n   }\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 750,
+        "y": 560,
+        "wires": [
+            [
+                "3f3ca29c6ddd8ee2"
+            ]
+        ]
+    },
+    {
+        "id": "8dfb2e6cfaeb22e5",
+        "type": "mqtt in",
+        "z": "6c0a65ccddbdd707",
+        "g": "5c0bd1ebe2299210",
+        "name": "",
+        "topic": "Reject Tray",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "875dde83f3ebc0ea",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 280,
+        "wires": [
+            [
+                "273ac0ab7c434384"
+            ]
+        ]
+    },
+    {
+        "id": "273ac0ab7c434384",
+        "type": "switch",
+        "z": "6c0a65ccddbdd707",
+        "g": "5c0bd1ebe2299210",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Empty",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Full",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 310,
+        "y": 280,
+        "wires": [
+            [
+                "95c4d77be4b77db0"
+            ],
+            [
+                "4ab26925cb223fe6",
+                "ada35c62569fadb3"
+            ]
+        ]
+    },
+    {
+        "id": "95c4d77be4b77db0",
+        "type": "change",
+        "z": "6c0a65ccddbdd707",
+        "g": "5c0bd1ebe2299210",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 260,
+        "wires": [
+            [
+                "f0722892a7931f22"
+            ]
+        ]
+    },
+    {
+        "id": "ada35c62569fadb3",
+        "type": "delay",
+        "z": "6c0a65ccddbdd707",
+        "g": "5c0bd1ebe2299210",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": true,
+        "allowrate": true,
+        "outputs": 1,
+        "x": 470,
+        "y": 340,
+        "wires": [
+            [
+                "6cf0272d36aee237"
+            ]
+        ]
+    },
+    {
+        "id": "9aa1fd6b95f31be7",
+        "type": "influxdb out",
+        "z": "6c0a65ccddbdd707",
+        "g": "a613a623a2e7ad6c",
+        "influxdb": "55fd4af1e0d5d955",
+        "name": "",
+        "measurement": "Maintenance Status",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "bc0d8ab9311dac0c",
+        "bucket": "CIOT",
+        "x": 760,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "6f9631c1195515ba",
+        "type": "change",
+        "z": "6c0a65ccddbdd707",
+        "g": "a613a623a2e7ad6c",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 520,
+        "wires": [
+            [
+                "9aa1fd6b95f31be7",
+                "a3f4594ed3e9640b"
+            ]
+        ]
+    },
+    {
+        "id": "f3366290662c7159",
+        "type": "change",
+        "z": "6c0a65ccddbdd707",
+        "g": "a613a623a2e7ad6c",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 560,
+        "wires": [
+            [
+                "9aa1fd6b95f31be7",
+                "222cce964e585cd6"
+            ]
+        ]
+    },
+    {
+        "id": "aec0ccbf2fb3c146",
+        "type": "debug",
+        "z": "6c0a65ccddbdd707",
+        "g": "9413c6282fd0936f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 430,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "6c8290e782386bac",
+        "type": "mqtt in",
+        "z": "6c0a65ccddbdd707",
+        "g": "340939f45f1e93c4",
+        "name": "",
+        "topic": "AI",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "875dde83f3ebc0ea",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 110,
+        "y": 700,
+        "wires": [
+            [
+                "52a2f78892d65b84"
+            ]
+        ]
+    },
+    {
+        "id": "96948de6bd7e4ae2",
+        "type": "ui_led",
+        "z": "6c0a65ccddbdd707",
+        "order": 0,
+        "group": "b1321be1f6c8c5b7",
+        "width": "4",
+        "height": "2",
+        "label": "Motor Status:",
+        "labelPlacement": "left",
+        "labelAlignment": "center",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showGlow": true,
+        "name": "",
+        "x": 1250,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "05da0d13bb90ee99",
+        "type": "switch",
+        "z": "6c0a65ccddbdd707",
+        "g": "340939f45f1e93c4",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "It is a white cube!",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "It is a silver cube!",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Unkown",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 430,
+        "y": 700,
+        "wires": [
+            [
+                "fcc04f58e4c5254b"
+            ],
+            [
+                "7b93fbd1b9f435c5"
+            ],
+            [
+                "7b93fbd1b9f435c5"
+            ]
+        ]
+    },
+    {
+        "id": "7b93fbd1b9f435c5",
+        "type": "change",
+        "z": "6c0a65ccddbdd707",
+        "g": "340939f45f1e93c4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 680,
+        "wires": [
+            [
+                "96948de6bd7e4ae2"
+            ]
+        ]
+    },
+    {
+        "id": "fcc04f58e4c5254b",
+        "type": "change",
+        "z": "6c0a65ccddbdd707",
+        "g": "340939f45f1e93c4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 720,
+        "wires": [
+            [
+                "96948de6bd7e4ae2"
+            ]
+        ]
+    },
+    {
+        "id": "3f3ca29c6ddd8ee2",
+        "type": "rbe",
+        "z": "6c0a65ccddbdd707",
+        "g": "52a08a28255267c5",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 950,
+        "y": 540,
+        "wires": [
+            [
+                "a56a1ceae11ba607"
+            ]
+        ]
+    },
+    {
+        "id": "59aa0fbc83a7c6c7",
+        "type": "debug",
+        "z": "6c0a65ccddbdd707",
+        "g": "5c0bd1ebe2299210",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "f64c68bad13cfbdf",
+        "type": "influxdb in",
+        "z": "6c0a65ccddbdd707",
+        "g": "9a62b7d0a5f0d5e4",
+        "influxdb": "55fd4af1e0d5d955",
+        "name": "",
+        "query": "from(bucket: \"CIOT\") |> range(start: -1s, stop: now())|> filter(fn: (r) => r[\"_measurement\"] == \"Maintenance Status\")|> filter(fn: (r) => r[\"_field\"] == \"value\")",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "bc0d8ab9311dac0c",
+        "x": 1580,
+        "y": 720,
+        "wires": [
+            [
+                "9465bc03c7471e00"
+            ]
+        ]
+    },
+    {
+        "id": "229e7704c2042ecb",
+        "type": "inject",
+        "z": "6c0a65ccddbdd707",
+        "g": "9a62b7d0a5f0d5e4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "timestamp",
+        "payloadType": "date",
+        "x": 1340,
+        "y": 760,
+        "wires": [
+            [
+                "f64c68bad13cfbdf",
+                "583bb6939867551a"
+            ]
+        ]
+    },
+    {
+        "id": "9465bc03c7471e00",
+        "type": "change",
+        "z": "6c0a65ccddbdd707",
+        "g": "9a62b7d0a5f0d5e4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0]._value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1780,
+        "y": 720,
+        "wires": [
+            [
+                "78c3169182524b33",
+                "b0eb4031c09938a2"
+            ]
+        ]
+    },
+    {
+        "id": "78c3169182524b33",
+        "type": "ui_chart",
+        "z": "6c0a65ccddbdd707",
+        "g": "9a62b7d0a5f0d5e4",
+        "name": "",
+        "group": "fd0ea2912fa11a5b",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Maintenance Frequency",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 2010,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "583bb6939867551a",
+        "type": "influxdb in",
+        "z": "6c0a65ccddbdd707",
+        "g": "9a62b7d0a5f0d5e4",
+        "influxdb": "55fd4af1e0d5d955",
+        "name": "",
+        "query": "from(bucket: \"CIOT\") |> range(start: -1s, stop: now())|> filter(fn: (r) => r[\"_measurement\"] == \"Reject Tray\")|> filter(fn: (r) => r[\"_field\"] == \"value\")",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "bc0d8ab9311dac0c",
+        "x": 1580,
+        "y": 800,
+        "wires": [
+            [
+                "494f27d083454b21"
+            ]
+        ]
+    },
+    {
+        "id": "494f27d083454b21",
+        "type": "change",
+        "z": "6c0a65ccddbdd707",
+        "g": "9a62b7d0a5f0d5e4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0]._value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1780,
+        "y": 800,
+        "wires": [
+            [
+                "eda7334bc8e57384",
+                "32ad389144a34f48"
+            ]
+        ]
+    },
+    {
+        "id": "eda7334bc8e57384",
+        "type": "ui_chart",
+        "z": "6c0a65ccddbdd707",
+        "g": "9a62b7d0a5f0d5e4",
+        "name": "",
+        "group": "fd0ea2912fa11a5b",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Reject Frequency",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": "24",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1990,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b0eb4031c09938a2",
+        "type": "ui_gauge",
+        "z": "6c0a65ccddbdd707",
+        "g": "9a62b7d0a5f0d5e4",
+        "name": "",
+        "group": "4fbbbf8de34fd33f",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Maintenance",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 1970,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "32ad389144a34f48",
+        "type": "ui_gauge",
+        "z": "6c0a65ccddbdd707",
+        "g": "9a62b7d0a5f0d5e4",
+        "name": "",
+        "group": "4fbbbf8de34fd33f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Reject Tray ",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 1970,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "ff3c1d8eb3f81ada",
+        "type": "change",
+        "z": "6c0a65ccddbdd707",
+        "g": "a0d8fd063516e634",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 1260,
+        "wires": [
+            [
+                "96948de6bd7e4ae2"
+            ]
+        ]
+    },
+    {
+        "id": "0b589393d3a35487",
+        "type": "delay",
+        "z": "6c0a65ccddbdd707",
+        "g": "a0d8fd063516e634",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 120,
+        "y": 1300,
+        "wires": [
+            [
+                "e82798955a04afc8"
+            ]
+        ]
+    },
+    {
+        "id": "e82798955a04afc8",
+        "type": "change",
+        "z": "6c0a65ccddbdd707",
+        "g": "a0d8fd063516e634",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 280,
+        "y": 1300,
+        "wires": [
+            [
+                "96948de6bd7e4ae2"
+            ]
+        ]
+    },
+    {
+        "id": "5dbada441923dfd9",
+        "type": "ui_text_input",
+        "z": "6c0a65ccddbdd707",
+        "g": "8214840023dbe70a",
+        "name": "",
+        "label": "Username",
+        "tooltip": "",
+        "group": "1fd8931117966c33",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": false,
+        "className": "",
+        "topicType": "msg",
+        "x": 130,
+        "y": 820,
+        "wires": [
+            [
+                "b336a42e9e97b196"
+            ]
+        ]
+    },
+    {
+        "id": "78ccbf328f8fa82f",
+        "type": "ui_text_input",
+        "z": "6c0a65ccddbdd707",
+        "g": "8214840023dbe70a",
+        "name": "",
+        "label": "Password",
+        "tooltip": "",
+        "group": "1fd8931117966c33",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "password",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": false,
+        "className": "",
+        "topicType": "msg",
+        "x": 120,
+        "y": 860,
+        "wires": [
+            [
+                "41c54afc421fca04"
+            ]
+        ]
+    },
+    {
+        "id": "b336a42e9e97b196",
+        "type": "change",
+        "z": "6c0a65ccddbdd707",
+        "g": "8214840023dbe70a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "username",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "username",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 820,
+        "wires": [
+            [
+                "1869212c73e0dbf0"
+            ]
+        ]
+    },
+    {
+        "id": "41c54afc421fca04",
+        "type": "change",
+        "z": "6c0a65ccddbdd707",
+        "g": "8214840023dbe70a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "password",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "password",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 300,
+        "y": 860,
+        "wires": [
+            [
+                "1869212c73e0dbf0"
+            ]
+        ]
+    },
+    {
+        "id": "1869212c73e0dbf0",
+        "type": "join",
+        "z": "6c0a65ccddbdd707",
+        "g": "8214840023dbe70a",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "",
+        "propertyType": "full",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 510,
+        "y": 840,
+        "wires": [
+            [
+                "34b52d8ec56f6e21"
+            ]
+        ]
+    },
+    {
+        "id": "34b52d8ec56f6e21",
+        "type": "function",
+        "z": "6c0a65ccddbdd707",
+        "g": "8214840023dbe70a",
+        "name": "",
+        "func": "if (msg.username==\"lutfi\"&&msg.password==\"lutfi\"){\n    msg.authorize=\"Authorized\";\n    msg.int=1000\n}\nelse if (msg.username==\"yh\"&&msg.password==\"yh\"){\n    msg.authorize=\"Authorized\";\n    msg.int=1000\n}\nelse{\n    msg.authorize=\"Error!\";\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 840,
+        "wires": [
+            [
+                "b607f404002d57ac",
+                "b23b0e75c3402c30",
+                "07cc14438415d393"
+            ]
+        ]
+    },
+    {
+        "id": "b607f404002d57ac",
+        "type": "ui_text",
+        "z": "6c0a65ccddbdd707",
+        "g": "8214840023dbe70a",
+        "group": "1fd8931117966c33",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Please Enter username and password",
+        "format": "{{msg.authorize}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 950,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "b23b0e75c3402c30",
+        "type": "debug",
+        "z": "6c0a65ccddbdd707",
+        "g": "8214840023dbe70a",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "ab70bde8ca5639ef",
+        "type": "ui_text_input",
+        "z": "6c0a65ccddbdd707",
+        "g": "2edc7fd666440959",
+        "name": "",
+        "label": "2FA",
+        "tooltip": "",
+        "group": "1fd8931117966c33",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": false,
+        "className": "",
+        "topicType": "msg",
+        "x": 110,
+        "y": 1120,
+        "wires": [
+            [
+                "9588af6816ec9a3d"
+            ]
+        ]
+    },
+    {
+        "id": "5d24072a48188193",
+        "type": "function",
+        "z": "6c0a65ccddbdd707",
+        "g": "2edc7fd666440959",
+        "name": "",
+        "func": "msg.payload=Math.floor(Math.random() * msg.int)\nmsg.topic=\"2fa\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 1000,
+        "wires": [
+            [
+                "3f9f5320f7e25e58",
+                "0d09aff208b7290c"
+            ]
+        ]
+    },
+    {
+        "id": "9588af6816ec9a3d",
+        "type": "change",
+        "z": "6c0a65ccddbdd707",
+        "g": "2edc7fd666440959",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "input",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "userinput",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 260,
+        "y": 1120,
+        "wires": [
+            [
+                "0d09aff208b7290c"
+            ]
+        ]
+    },
+    {
+        "id": "0d09aff208b7290c",
+        "type": "join",
+        "z": "6c0a65ccddbdd707",
+        "g": "2edc7fd666440959",
+        "name": "",
+        "mode": "custom",
+        "build": "object",
+        "property": "",
+        "propertyType": "full",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 430,
+        "y": 1080,
+        "wires": [
+            [
+                "2dfe75d701f2410e",
+                "9fba1fb4966009ea"
+            ]
+        ]
+    },
+    {
+        "id": "2dfe75d701f2410e",
+        "type": "switch",
+        "z": "6c0a65ccddbdd707",
+        "g": "2edc7fd666440959",
+        "name": "",
+        "property": "payload.2fa.payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "payload.userinput.payload",
+                "vt": "msg"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 570,
+        "y": 1080,
+        "wires": [
+            [
+                "7c4ca2e59794ca01"
+            ],
+            [
+                "f0c0a77a95f13119"
+            ]
+        ]
+    },
+    {
+        "id": "9fba1fb4966009ea",
+        "type": "debug",
+        "z": "6c0a65ccddbdd707",
+        "g": "2edc7fd666440959",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 450,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "7c4ca2e59794ca01",
+        "type": "change",
+        "z": "6c0a65ccddbdd707",
+        "g": "2edc7fd666440959",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "open",
+                "pt": "msg",
+                "to": "1",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Authorized! Turning On motor",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "testTopic",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1060,
+        "wires": [
+            [
+                "a4bbe22d16c169a7",
+                "3406ec1fa0a04c1c",
+                "ff3c1d8eb3f81ada",
+                "0b589393d3a35487"
+            ]
+        ]
+    },
+    {
+        "id": "a4bbe22d16c169a7",
+        "type": "debug",
+        "z": "6c0a65ccddbdd707",
+        "g": "2edc7fd666440959",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 910,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "3406ec1fa0a04c1c",
+        "type": "ui_text",
+        "z": "6c0a65ccddbdd707",
+        "g": "2edc7fd666440959",
+        "group": "1fd8931117966c33",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 910,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "07cc14438415d393",
+        "type": "switch",
+        "z": "6c0a65ccddbdd707",
+        "g": "2edc7fd666440959",
+        "name": "",
+        "property": "authorize",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Authorized",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Error!",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 110,
+        "y": 1000,
+        "wires": [
+            [
+                "5d24072a48188193"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ece0341a3e2bd569",
+        "type": "telegram sender",
+        "z": "6c0a65ccddbdd707",
+        "g": "8e3d2dc01336c049",
+        "name": "",
+        "bot": "65103eab3bf5f377",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 750,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3f9f5320f7e25e58",
+        "type": "function",
+        "z": "6c0a65ccddbdd707",
+        "g": "8e3d2dc01336c049",
+        "name": "Declare Telegram Objects",
+        "func": "var temp=msg.payload\nif (msg.username==\"lutfi\"){\n    var chatid=\"669038186\"\n}\nelse if (msg.username==\"nab\"){\n    chatid=\"306934678\"\n}\nelse if (msg.username==\"val\"){\n    chatid=\"282229491\"\n}\nmsg.payload={\n    content:\"Hi \"+msg.username+\" Your 2FA key is: \"+msg.payload,\n    type:'message',\n    chatId:chatid\n   }\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 1000,
+        "wires": [
+            [
+                "ece0341a3e2bd569"
+            ]
+        ]
+    },
+    {
+        "id": "f0c0a77a95f13119",
+        "type": "change",
+        "z": "6c0a65ccddbdd707",
+        "g": "2edc7fd666440959",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "open",
+                "pt": "msg",
+                "to": "0",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Unauthorized! Wrong 2FA",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1100,
+        "wires": [
+            [
+                "3406ec1fa0a04c1c"
+            ]
+        ]
+    },
+    {
+        "id": "52a2f78892d65b84",
+        "type": "rbe",
+        "z": "6c0a65ccddbdd707",
+        "g": "340939f45f1e93c4",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 290,
+        "y": 700,
+        "wires": [
+            [
+                "05da0d13bb90ee99"
+            ]
+        ]
+    },
+    {
+        "id": "875dde83f3ebc0ea",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "65103eab3bf5f377",
+        "type": "telegram bot",
+        "botname": "CIOT BOT",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "55fd4af1e0d5d955",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "database",
+        "name": "localhost",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "http://localhost:8086",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "b1321be1f6c8c5b7",
+        "type": "ui_group",
+        "name": "Motor",
+        "tab": "ec48e4bcf886e483",
+        "order": 3,
+        "disp": true,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fd0ea2912fa11a5b",
+        "type": "ui_group",
+        "name": "Graphs",
+        "tab": "ec48e4bcf886e483",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4fbbbf8de34fd33f",
+        "type": "ui_group",
+        "name": "Status",
+        "tab": "ec48e4bcf886e483",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1fd8931117966c33",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "ec48e4bcf886e483",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ec48e4bcf886e483",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
